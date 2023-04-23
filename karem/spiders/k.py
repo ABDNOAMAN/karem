@@ -37,10 +37,7 @@ links = [
 class KSpider(scrapy.Spider):
     name = "k"
     custom_settings = {
-         'FEEDS': {
-            'quotes.csv': {
-                'format': 'csv'
-            }},
+        
         #'PLAYWRIGHT_DEFAULT_NAVIGATION_TIMEOUT': '100000',
         'PLAYWRIGHT_ABORT_REQUEST': should_abort_request
 
